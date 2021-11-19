@@ -16,3 +16,11 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 14
+  
+  build-project:
+    name: test-build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: test command
+        run: echo 'hello world'
