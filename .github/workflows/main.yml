@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    run on: ubuntu-latest
+    run-on: ubuntu-latest
 
     steps:
     - name: checkout code
